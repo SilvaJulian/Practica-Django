@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}ATRIBUTOS{% endblock %}
+
+{% block content %}
+<table>
+
+{% for atributos,atributos2 in valor %}
+<tr>
+<td>
+{{atributos}}
+</td>
+<td>
+{{atributos2}}
+</td>
+</tr>
+{% endfor %}
+<table>
+{% endblock %}
